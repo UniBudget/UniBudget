@@ -1,4 +1,4 @@
-# UniBudgett
+# UniBudget
 Original App Design Project - README Template
 UniBudget
 Table of Contents
