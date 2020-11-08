@@ -3,14 +3,14 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/backgroundLogin"
+    android:id="@+id/bgSignup"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#7FA87F"
-    tools:context=".LoginActivity">
+    tools:context=".SignupActivity">
 
     <View
-        android:id="@+id/view4"
+        android:id="@+id/tvSignupbox"
         android:layout_width="255dp"
         android:layout_height="57dp"
         android:layout_alignParentStart="true"
@@ -21,7 +21,7 @@
         android:background="#CDFCB5" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/tvSignup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -35,7 +35,7 @@
         android:textSize="18sp" />
 
     <View
-        android:id="@+id/view3"
+        android:id="@+id/passBox"
         android:layout_width="254dp"
         android:layout_height="59dp"
         android:layout_alignParentStart="true"
@@ -46,7 +46,7 @@
         android:background="#CDFCB5" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tvPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -60,7 +60,7 @@
         android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tvTitlee"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -76,7 +76,7 @@
         tools:layout_editor_absoluteY="127dp" />
 
     <TextView
-        android:id="@+id/login"
+        android:id="@+id/tvnewMember"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -88,7 +88,7 @@
         android:textSize="30sp" />
 
     <View
-        android:id="@+id/view"
+        android:id="@+id/tvfNamebox"
         android:layout_width="249dp"
         android:layout_height="61dp"
         android:layout_alignParentStart="true"
@@ -99,7 +99,7 @@
         android:background="#CDFCB5" />
 
     <View
-        android:id="@+id/view2"
+        android:id="@+id/tvLnamebox"
         android:layout_width="253dp"
         android:layout_height="61dp"
         android:layout_alignParentStart="true"
@@ -110,7 +110,7 @@
         android:background="#CDFCB5" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/tvLname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -124,7 +124,7 @@
         android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/tvFname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -138,7 +138,7 @@
         android:textSize="18sp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnSignup"
         android:layout_width="103dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -150,7 +150,7 @@
         android:textColor="#272424" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnLogn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
