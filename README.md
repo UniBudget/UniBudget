@@ -186,4 +186,6 @@ private void saveCurrentUserLocation() {
      }
  }
 ```
-
+- Updates
+- Created a new repository for application because of technical difficulties between Android Studio and GitHub.
+- Font originally chosen for application was not present in Android Studio. So, the group chose to select a font that was similar to the original.
