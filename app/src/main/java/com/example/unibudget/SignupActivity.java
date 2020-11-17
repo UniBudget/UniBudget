@@ -49,7 +49,7 @@ public class SignupActivity extends AppCompatActivity {
                 user.signUpInBackground(new SignUpCallback() {
                     public void done(ParseException e) {
                         if (e != null) {
-                            final Intent intent = new Intent(SignupActivity.this, MainActivity.class);
+                            final Intent intent = new Intent(SignupActivity.this, HomeActivity.class);
                             startActivity(intent);
                             finish();
                         } else {

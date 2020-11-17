@@ -142,8 +142,8 @@
 
     <EditText
         android:id="@+id/tvFname"
-        android:layout_width="244dp"
-        android:layout_height="54dp"
+        android:layout_width="236dp"
+        android:layout_height="61dp"
         android:layout_alignStart="@+id/tvfNamebox"
         android:layout_alignTop="@+id/tvfNamebox"
         android:layout_alignEnd="@+id/tvfNamebox"
@@ -151,8 +151,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="3dp"
         android:layout_marginTop="0dp"
-        android:layout_marginEnd="7dp"
-        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="-3dp"
         android:fontFamily="@font/allerta"
         android:hint="first name"
         android:textAlignment="viewStart"
