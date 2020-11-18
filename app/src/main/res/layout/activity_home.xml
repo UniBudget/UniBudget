@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/tvMBG"
+    android:id="@+id/tvMBGoal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#CDFCB5"
@@ -11,11 +11,13 @@
     <View
         android:id="@+id/view"
         android:layout_width="match_parent"
-        android:layout_height="109dp"
+        android:layout_height="176dp"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="0dp"
-        android:layout_marginBottom="622dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="-31dp"
+        android:layout_marginBottom="555dp"
         android:background="#7FA87F" />
 
     <TextView
@@ -50,220 +52,221 @@
 
     <View
         android:id="@+id/view2"
-        android:layout_width="333dp"
-        android:layout_height="463dp"
+        android:layout_width="match_parent"
+        android:layout_height="461dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="49dp"
-        android:layout_marginTop="183dp"
-        android:background="#FFFFFF" />
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="166dp" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="0dp"
-        android:layout_marginBottom="0dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="-3dp"
+        android:layout_marginBottom="36dp"
         app:menu="@menu/menu_bottom_navigation" />
 
-    <TextView
-        android:id="@+id/tvDBGs"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <View
+        android:id="@+id/view9"
+        android:layout_width="359dp"
+        android:layout_height="207dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="82dp"
-        android:layout_marginTop="202dp"
-        android:fontFamily="@font/kavoon"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        tools:text="Daily Budget Goal: " />
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="183dp"
+        android:background="#FFFFFF" />
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="29dp"
+    <View
+        android:id="@+id/view10"
+        android:layout_width="362dp"
+        android:layout_height="200dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="269dp"
-        android:layout_marginTop="203dp"
-        android:fontFamily="@font/kavoon"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        tools:text="$20" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="410dp"
+        android:background="#FFFFFF" />
 
     <TextView
-        android:id="@+id/tvWBG"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tvDBGs"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="82dp"
-        android:layout_marginTop="26dp"
-        android:fontFamily="@font/kavoon"
-        android:text="Weekly Budget Goal:"
-        android:textColor="#000000"
-        android:textSize="20sp" />
-
-    <TextView
-        android:id="@+id/tvinput1"
+        android:id="@+id/tvDailyBudget"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="257dp"
-        android:layout_marginEnd="102dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="192dp"
         android:fontFamily="@font/kavoon"
+        android:text="Daily Budget: $15"
         android:textColor="#000000"
-        android:textSize="20sp"
-        tools:text="$100" />
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvWBGoals"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="229dp"
+        android:fontFamily="@font/kavoon"
+        android:text="Weekly Budget Goals: $100"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvInput1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvWBGoals"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="-3dp"
+        android:fontFamily="@font/kavoon"
+        android:text="Groceries: $100"
+        android:textColor="#000000"
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/tvInput2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/tvWBG"
+        android:layout_below="@+id/tvInput1"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="82dp"
-        android:layout_marginTop="-2dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="-1dp"
         android:fontFamily="@font/kavoon"
+        android:text="Gas: $30"
         android:textColor="#000000"
-        android:textSize="20sp"
-        tools:text="Groceries: $25" />
+        android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/tvinput3"
+        android:id="@+id/tvInput3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/tvInput2"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="82dp"
-        android:layout_marginTop="310dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="0dp"
         android:fontFamily="@font/kavoon"
+        android:text="Savings: $10"
         android:textColor="#000000"
-        android:textSize="20sp"
-        tools:text="Savings: $10" />
+        android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/tvinput4"
+        android:id="@+id/tvInput4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/tvInput3"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="83dp"
-        android:layout_marginTop="333dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="0dp"
         android:fontFamily="@font/kavoon"
+        android:text="Extra: $35"
         android:textColor="#000000"
-        android:textSize="20sp"
-        tools:text="Gas: $30" />
+        android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/tvinput21"
+        android:id="@+id/tvMBGoals"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/tvInput4"
         android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="82dp"
-        android:layout_marginBottom="326dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="70dp"
         android:fontFamily="@font/kavoon"
-        android:text="Monthly Budget Goal:"
+        android:text="Monthly Budget Goals: $950"
         android:textColor="#000000"
-        android:textSize="20sp" />
+        android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/textView12"
-        android:layout_width="64dp"
-        android:layout_height="31dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="3dp"
-        android:layout_marginTop="372dp"
-        android:layout_marginEnd="73dp"
-        android:layout_toEndOf="@+id/tvinput21"
-        android:fontFamily="@font/kavoon"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        tools:text="$950" />
-
-    <TextView
-        android:id="@+id/tvInput22"
+        android:id="@+id/tvInput5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/tvMBGoals"
         android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="82dp"
-        android:layout_marginBottom="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="0dp"
         android:fontFamily="@font/kavoon"
+        android:text="Rent: $450"
         android:textColor="#000000"
-        android:textSize="20sp"
-        tools:text="Rent: $450" />
+        android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/tvInput23"
+        android:id="@+id/tvInput6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/tvInput5"
         android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="82dp"
-        android:layout_marginBottom="275dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="0dp"
         android:fontFamily="@font/kavoon"
+        android:text="Car note: $200"
         android:textColor="#000000"
-        android:textSize="20sp"
-        tools:text="Car note: $200" />
+        android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/tvInput24"
+        android:id="@+id/tvInput7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/tvInput6"
         android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="82dp"
-        android:layout_marginBottom="249dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="0dp"
         android:fontFamily="@font/kavoon"
+        android:text="Gas: $120"
         android:textColor="#000000"
-        android:textSize="20sp"
-        tools:text="Gas: $120" />
+        android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/textView16"
+        android:id="@+id/tvInput8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/tvInput7"
         android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="82dp"
-        android:layout_marginBottom="225dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="0dp"
         android:fontFamily="@font/kavoon"
+        android:text="Groceries: $100"
         android:textColor="#000000"
-        android:textSize="20sp"
-        tools:text="Groceries: $100" />
+        android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/textView17"
+        android:id="@+id/tvInput9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/tvInput8"
         android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="82dp"
-        android:layout_marginBottom="197dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="0dp"
         android:fontFamily="@font/kavoon"
+        android:text="Savings: $40"
         android:textColor="#000000"
-        android:textSize="20sp"
-        tools:text="Savings: $40" />
+        android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/textView18"
+        android:id="@+id/tvInput10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/tvInput9"
         android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="82dp"
-        android:layout_marginBottom="174dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="0dp"
         android:fontFamily="@font/kavoon"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp" />
+        android:text="Extra: $40"
+        android:textColor="#000000"
+        android:textSize="18sp" />
 
 
 </RelativeLayout>
