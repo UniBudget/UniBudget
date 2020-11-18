@@ -31,7 +31,7 @@ An application that assists college/university students with daily (day-to-day, 
 * [x]Users can register a new account.
 * [x]Users can login.
 * [ ]Users able to locate nearby banking/credit unions.
-* [ ]Users can recieve notifications about daily, weekly, and monthly goals.
+* [x]Users can recieve information about daily, weekly, and monthly goals.
 
 **Optional Nice-to-have Stories**
 
@@ -86,7 +86,11 @@ Maps (Detailed View)
 Edit Account (Detailed View)]
 Edit Budget (Detailed View)]
 
-## Updated Gif - Sprint Cycle 1
+## Updated Gif - Sprint Cycle 2 
+
+<img src ="https://media.giphy.com/media/AaylnEpvm43LLEnq2e/giphy.gif" width=250>br>
+
+## Gif - Sprint Cycle 1
 <img src="https://media.giphy.com/media/XWPbE2Z55Of7zrrEOZ/giphy.gif" width=250><br>
 
 
@@ -186,6 +190,9 @@ private void saveCurrentUserLocation() {
      }
  }
 ```
-- Updates
+- Updates 1
 - Created a new repository for application because of technical difficulties between Android Studio and GitHub.
 - Font originally chosen for application was not present in Android Studio. So, the group chose to select a font that was similar to the original.
+- Updates 2
+- Removed showbar from screens
+- Created homepage showcasing budgeting goals.
