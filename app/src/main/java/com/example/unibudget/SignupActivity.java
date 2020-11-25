@@ -8,6 +8,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+import android.app.AlertDialog;
+import android.app.ProgressDialog;
+import android.content.DialogInterface;
 
 import com.parse.ParseException;
 import com.parse.ParseUser;
@@ -68,5 +71,6 @@ public class SignupActivity extends AppCompatActivity {
                 finish();
             }
         });
+
     }
 }

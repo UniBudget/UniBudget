@@ -10,6 +10,17 @@
     tools:context=".SignupActivity">
 
     <View
+        android:id="@+id/tvEmailbox2"
+        android:layout_width="258dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="408dp"
+        android:background="#CDFCB5" />
+
+    <View
         android:id="@+id/tvEmailbox"
         android:layout_width="258dp"
         android:layout_height="53dp"

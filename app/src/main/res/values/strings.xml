@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">UniBudget</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+    <string name="back4app_app_id">eCTzNXqC1JLrcuznmngsAA2MBnhdzbIy1e96FJg9</string>
+    <string name="back4app_client_key">rIL6Lm8q0UmBi3SFpn527oLmOLjt0JGvrpTmPTrI</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
