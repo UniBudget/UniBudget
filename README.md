@@ -31,7 +31,7 @@ An application that assists college/university students with daily (day-to-day, 
 * [x]Users can register a new account.
 * [x]Users can login.
 * [x]Users able to locate nearby banking/credit unions.
-* []Users can recieve notifications about daily, weekly, and monthly goals.
+* [ ]Users can recieve notifications about daily, weekly, and monthly goals.
 
 **Optional Nice-to-have Stories**
 
@@ -87,7 +87,7 @@ Edit Account (Detailed View)]
 Edit Budget (Detailed View)]
 
 ## Updated Gif - Sprint Cycle 3
-<img src ="https://media.giphy.com/media/09X4rteFqyVNfQAmXl/giphy.gif width=250>br>
+<img src ="https://media.giphy.com/media/09X4rteFqyVNfQAmXl/giphy.gif" width=250>br>
            
 ## Updated Gif - Sprint Cycle 2 
 <img src ="https://media.giphy.com/media/AaylnEpvm43LLEnq2e/giphy.gif" width=250>br>
