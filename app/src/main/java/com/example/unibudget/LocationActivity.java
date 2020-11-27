@@ -1,37 +1,49 @@
 package com.example.unibudget;
 
+
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 
-import androidx.fragment.app.FragmentActivity;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
-import com.google.android.gms.maps.CameraUpdateFactory;
-import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.OnMapReadyCallback;
-import com.google.android.gms.maps.SupportMapFragment;
-import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class LocationActivity extends FragmentActivity implements OnMapReadyCallback {
-    private BottomNavigationView bottomNavigationView;
-    GoogleMap map;
+
+public class LocationActivity extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_location);
-        bottomNavigationView = findViewById(R.id.bottom_navigation);
 
-        SupportMapFragment mapFragment = (SupportMapFragment)  getSupportFragmentManager()
-                .findFragmentById(R.id.map);
-        mapFragment .getMapAsync(this);
+
+        //Initialize
+        BottomNavigationView bottomNavigationView = findViewById(R.id.menu_bottom_navigation);
+        //Set home selected
+        bottomNavigationView.setSelectedItemId(R.id.action_location);
+        //Perform ItemSelectedListener
+        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+                switch (menuItem.getItemId()) {
+                    case R.id.action_home:
+                        startActivity(new Intent(getApplicationContext(), HomeActivity.class));
+                        overridePendingTransition(0, 0);
+                        return true;
+                    case R.id.action_location:
+                        return true;
+                    case R.id.action_profile:
+                        startActivity(new Intent(getApplicationContext(), ProfileActivity.class));
+                        overridePendingTransition(0, 0);
+                        return true;
+                }
+                return false;
+            }
+        });
+
+
     }
 
-    @Override
-    public void onMapReady(GoogleMap googleMap) {
-        map= googleMap;
-
-        LatLng Florida = new LatLng(27.994402, -81.760254);
-        map.addMarker(new MarkerOptions().position(Florida).title("Florida"));
-        map.moveCamera(CameraUpdateFactory.newLatLng(Florida));
-    }
 }
