@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -7,14 +8,206 @@
     android:layout_height="match_parent"
     tools:context=".ProfileActivity">
 
-    <TextView
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="162dp"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="79dp"
+        android:src="@drawable/wrddry9tstguycgjqt8img"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp" />
+
+
+    <View
+        android:id="@+id/view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="-31dp"
+        android:layout_marginBottom="588dp"
+        android:background="#7FA87F" />
+    <TextView
+        android:id="@+id/tvTitlee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="70dp"
+        android:fontFamily="@font/kavoon"
+        android:text="UniBudget"
+        android:textColor="#000000"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="127dp" />
+
+    <View
+        android:id="@+id/nameBox"
+        android:layout_width="255dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="156dp"
+        android:background="#CDFCB5" />
+
+    <TextView
+        android:id="@+id/logName"
+        android:layout_width="248dp"
+        android:layout_height="44dp"
+        android:layout_alignStart="@+id/nameBox"
+        android:layout_alignTop="@+id/nameBox"
+        android:layout_alignEnd="@+id/nameBox"
+        android:layout_alignBottom="@+id/nameBox"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="-1dp"
+        android:fontFamily="@font/allerta"
+        android:text="Roderick Harris"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/premailBox"
+        android:layout_width="259dp"
+        android:layout_height="51dp"
+        android:layout_below="@id/nameBox"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="211dp"
+        android:background="#CDFCB5" />
+
+    <TextView
+        android:id="@+id/logPrEmail"
+        android:layout_width="253dp"
+        android:layout_height="37dp"
+        android:layout_alignStart="@+id/premailBox"
+        android:layout_alignTop="@+id/premailBox"
+        android:layout_alignEnd="@+id/premailBox"
+        android:layout_alignBottom="@+id/premailBox"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="-3dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/allerta"
+        android:text="Roderick1.Harris@famu.edu"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/daibgBox"
+        android:layout_width="259dp"
+        android:layout_height="44dp"
+        android:layout_below="@id/premailBox"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="274dp"
+        android:background="#CDFCB5" />
+
+    <TextView
+        android:id="@+id/logdaiBg"
+        android:layout_width="247dp"
+        android:layout_height="41dp"
+        android:layout_alignStart="@+id/daibgBox"
+        android:layout_alignTop="@+id/daibgBox"
+        android:layout_alignEnd="@+id/daibgBox"
+        android:layout_alignBottom="@+id/daibgBox"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/allerta"
+        android:text="Daily Budget Goal: $15"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/wkgBox"
+        android:layout_width="257dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/daibgBox"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="326dp"
+        android:background="#CDFCB5" />
+
+
+    <TextView
+        android:id="@+id/logWkg"
+        android:layout_width="245dp"
+        android:layout_height="33dp"
+        android:layout_alignStart="@+id/wkgBox"
+        android:layout_alignTop="@+id/wkgBox"
+        android:layout_alignEnd="@+id/wkgBox"
+        android:layout_alignBottom="@+id/wkgBox"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:fontFamily="@font/allerta"
+        android:text="Weekly Budget Goal: $100"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/mthgBox"
+        android:layout_width="259dp"
+        android:layout_height="54dp"
+        android:layout_below="@id/daibgBox"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="379dp"
+        android:background="#CDFCB5" />
+
+
+    <TextView
+        android:id="@+id/logMthg"
+        android:layout_width="266dp"
+        android:layout_height="82dp"
+        android:layout_alignStart="@+id/mthgBox"
+        android:layout_alignTop="@+id/mthgBox"
+        android:layout_alignEnd="@+id/mthgBox"
+        android:layout_alignBottom="@+id/mthgBox"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="9dp"
+        android:fontFamily="@font/allerta"
+        android:text="Monthly Budget Goal: $950"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
 
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -25,5 +218,31 @@
         app:itemIconTint="@drawable/selector"
         app:itemTextColor="@drawable/selector"
         app:menu="@menu/menu_bottom_navigation" />
+
+    <Button
+        android:id="@+id/Edtbutton"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="131dp"
+        android:background="#7FA87F"
+        android:text="@string/edit"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/logOtbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="91dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="131dp"
+        android:layout_toStartOf="@+id/Edtbutton"
+        android:background="#7FA87F"
+        android:text="@string/logout"
+        android:textSize="19sp" />
 
 </RelativeLayout>
