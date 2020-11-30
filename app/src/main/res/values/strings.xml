@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">UniBudget</string>
+    <string name="keyword">Keyword...</string>
+    <string name="search">Search</string>
     <string name="back4app_server_url">https://parseapi.back4app.com/</string>
     <string name="back4app_app_id">eCTzNXqC1JLrcuznmngsAA2MBnhdzbIy1e96FJg9</string>
     <string name="back4app_client_key">rIL6Lm8q0UmBi3SFpn527oLmOLjt0JGvrpTmPTrI</string>
@@ -8,5 +10,6 @@
     <string name="map_key">AIzaSyBKj6PA6PjojyippvGHWnJAyznj2i4k040</string>
     <string name="logout">Logout</string>
     <string name="edit">EDIT</string>
+
 
 </resources>

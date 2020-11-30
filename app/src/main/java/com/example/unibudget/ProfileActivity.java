@@ -24,6 +24,7 @@ public class ProfileActivity extends AppCompatActivity {
         setContentView(R.layout.activity_profile);
 
         CircleImageView circleImageView = (CircleImageView) findViewById(R.id.profile_image);
+
         Edtbutton = (Button) findViewById(R.id.Edtbutton);
         Edtbutton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -69,6 +70,8 @@ public class ProfileActivity extends AppCompatActivity {
 
 
         }
+
+
 
     private void EdtProfile() {
         Intent intent = new Intent(this,EditProfileActivity.class);

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "540480193120",
+    "firebase_url": "https://unibudgetapplication.firebaseio.com",
+    "project_id": "unibudgetapplication",
+    "storage_bucket": "unibudgetapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540480193120:android:8f7525a7da4aa5acf1f905",
+        "android_client_info": {
+          "package_name": "com.example.unibudget"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "540480193120-i2kie739s87bt01dbqkna7lk07en3qhs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6WCpXEx0RF_lVdtmtRDmRx3x-WWtjN0c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "540480193120-i2kie739s87bt01dbqkna7lk07en3qhs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

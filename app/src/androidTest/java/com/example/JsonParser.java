@@ -1,4 +1,4 @@
-package com.example.unibudget;
+package com.example;
 
 import org.json.JSONArray;
 import org.json.JSONException;
