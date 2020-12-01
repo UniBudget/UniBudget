@@ -31,7 +31,7 @@ An application that assists college/university students with daily (day-to-day, 
 * [x]Users can register a new account.
 * [x]Users can login.
 * [x]Users able to locate nearby banking/credit unions.
-* [ ]Users can recieve notifications about daily, weekly, and monthly goals.
+* [x]Users can recieve notifications about daily, weekly, and monthly goals.
 
 **Optional Nice-to-have Stories**
 
@@ -85,6 +85,9 @@ Maps (Detailed View)
 * Profile View
 Edit Account (Detailed View)]
 Edit Budget (Detailed View)]
+
+## Final Gif - Sprint Cycle 4
+<img src="https://media.giphy.com/media/9Vofpn3XZw1GO0wHoo/giphy.gif" width=250>br>
 
 ## Updated Gif - Sprint Cycle 3
 <img src ="https://media.giphy.com/media/09X4rteFqyVNfQAmXl/giphy.gif" width=250>br>
@@ -201,3 +204,5 @@ private void saveCurrentUserLocation() {
 - Updates 3
 - Created bottom naviagtion for application.
 - Created location view (showcasing nearby banks). 
+- Updates 4
+- Completed all the required stories and entities for the application. 
